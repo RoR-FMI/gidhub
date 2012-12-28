@@ -1,4 +1,5 @@
 Gidhub::Application.routes.draw do
+  match "/" => "pages#home"
   get "pages/home"
   get "pages/about"
   get "pages/contact"
