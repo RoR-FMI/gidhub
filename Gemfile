@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 gem 'rails', '3.2.9'
 
 # Bundle edge Rails instead:
@@ -21,6 +20,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+# Ruby slim:
+gem 'slim'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
